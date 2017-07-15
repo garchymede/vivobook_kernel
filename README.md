@@ -10,4 +10,4 @@
 
 5. If you want to modify some options, run <b>make xconfig</b>
 
-6. Then compile your new kernel with this command : <b>make</b>
+6. Then compile your new kernel with this command : <b>make -j4 </b> (-j4 if you want to use 4 threads...). 
